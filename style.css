@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     background-color: #074270;
@@ -34,9 +38,35 @@ nav a {
     display: block;
     background-color: white;
     height: 2px;
-    width: 90%;
+    width: 95%;
     display: flex;
+    margin: auto;
     justify-content: center;
+    margin: 2% auto;
+}
+
+.home-section1 {
+    margin: 0;
+}
+
+.home-content1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.home-content1-writing {
+    width: 55%;
+}
+
+.home-content1-img {
+    width: 40%;
+    height: 200px;
+    border: white solid 2px;
 }
 
 h1,
@@ -54,6 +84,7 @@ h1 {
 
 h2 {
     color: yellow;
+    margin: 0;
 }
 
 p {

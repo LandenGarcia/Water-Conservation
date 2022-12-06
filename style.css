@@ -64,9 +64,8 @@ nav a {
 }
 
 .home-content1-img {
-    width: 40%;
-    height: 200px;
-    border: white solid 2px;
+    width: 30%;
+    height: auto;
 }
 
 h1,

@@ -25,6 +25,13 @@ nav a {
     border: white solid 2px;
 }
 
+a:hover {
+    background-color: rgb(0, 172, 230);
+}
+a:link {
+    text-decoration: none;
+}
+
 .home-hero {
     background-color: grey;
     display: flex;
@@ -45,14 +52,34 @@ nav a {
     margin: 2% auto;
 }
 
-.home-section1 {
+.home-section1,
+.home-section2 {
     margin: 0;
 }
+
 
 .home-content1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.home-content2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    width: 100%;
+    margin: 0;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.home-content2-img {
+    display: flex;
+    flex-direction: row;
     width: 100%;
     margin: 0;
     padding-left: 2.5%;
@@ -61,11 +88,22 @@ nav a {
 
 .home-content1-writing {
     width: 55%;
+    padding-left: 5%;
+}
+
+.home-content2-writing {
+    width: 55%;
+    padding-left: 5%;
+}
+
+.home-content2-writing p {
+    display: flex;
+    justify-content: left;
 }
 
 .home-content1-img {
     width: 30%;
-    height: auto;
+    height: 100%;
 }
 
 h1,
@@ -86,8 +124,14 @@ h2 {
     margin: 0;
 }
 
+h2, p {
+    font-size: 250%;
+}
+
 p {
     color: white;
+    width: 100%;
+    font-size: 120%;
 }
 
 footer {
@@ -100,3 +144,4 @@ footer {
 footer a {
     color: white;
 }
+

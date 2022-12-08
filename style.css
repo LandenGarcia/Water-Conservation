@@ -70,7 +70,7 @@ a:link {
 .home-content2 {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: right;
+    justify-content: flex-start;
     width: 100%;
     margin: 0;
     padding-left: 2.5%;
@@ -91,9 +91,10 @@ a:link {
     padding-left: 5%;
 }
 
+
 .home-content2-writing {
-    width: 55%;
-    padding-left: 5%;
+    width: 65%;
+    margin-right: 25%;
 }
 
 .home-content2-writing p {
@@ -101,9 +102,11 @@ a:link {
     justify-content: left;
 }
 
+
+
 .home-content1-img {
     width: 30%;
-    height: 100%;
+    height: 100%
 }
 
 h1,

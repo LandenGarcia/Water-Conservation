@@ -24,23 +24,6 @@ nav a {
     display: block;
     border: white solid 2px;
 }
-
-a:hover {
-    background-color: rgb(0, 172, 230);
-}
-a:link {
-    text-decoration: none;
-}
-
-.home-hero {
-    background-color: grey;
-    display: flex;
-    justify-content: center;
-    flex-wrap:wrap;
-    align-content: center;
-    height: 40vh;
-}
-
 .divider {
     display: block;
     background-color: white;
@@ -50,6 +33,23 @@ a:link {
     justify-content: center;
     margin: 2% auto;
 }
+a:hover {
+    background-color: rgb(0, 172, 230);
+}
+a:link {
+    text-decoration: none;
+}
+
+.home-hero {
+    background-image: url(images/home-image1.jpg);
+    background-size: cover;
+    background-position-y: -500px;
+    height: 50vh;
+    text-align: center;
+    padding: 150px;
+}
+
+
 
 .home-section1,
 .home-section2 {
@@ -83,7 +83,7 @@ a:link {
 
 .home-content2-writing {
     width: 65%;
-    margin-right: 2%;
+    margin-right: 6%;
 }
 
 .home-content2-writing p {
@@ -135,5 +135,8 @@ footer {
 
 footer a {
     color: white;
+}
+.references,.footer-resources{
+margin-left: 2.5%;
 }
 

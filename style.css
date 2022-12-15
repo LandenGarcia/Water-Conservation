@@ -16,8 +16,8 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: auto;
-    padding-top: 1.2em;
-    padding-bottom: 1.2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 nav a {
@@ -147,9 +147,15 @@ footer a {
 }
 
 .footer-img-courtesy2 {
-    padding-top: 80px;
+    padding-top: 70px;
 }
 
 .copyright {
-    align-self: flex-end;
+    background-color: #743B00;
+    display: flex;
+}
+.copyright > p{
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
 }
